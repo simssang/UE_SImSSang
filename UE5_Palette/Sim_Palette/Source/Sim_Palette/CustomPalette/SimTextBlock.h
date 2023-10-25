@@ -55,9 +55,6 @@ public:
 	bool IsTextFlowing = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SimUIPalette|Flowing")
-	bool IsUseFormatText = false;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SimUIPalette|Flowing")
 	float TextFlowingVelocity = 2.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "SimUIPalette|Flowing")
